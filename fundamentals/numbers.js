@@ -24,6 +24,7 @@ console.log(mean);
 
 console.log(10/0) //infinity
 console.log('10' / 2); // 5
+console.log('10' + 2); // 102, in this case, + operator makes sense for string operation
 console.log('10.0' / 2); // 5
 console.log('10,0' / 2); // NaN
 console.log('show' * 2); // NaN
