@@ -31,3 +31,8 @@ console.log(0.1 + 0.7); //0.79999999
 console.log(9.5.toString());
 // console.log(10.toString()) SyntaxError: Invalid or unexpected token
 console.log((10).toString());
+
+const radius = 5.6
+const area = Math.PI * Math.pow(radius, 2)
+
+console.log(area);
