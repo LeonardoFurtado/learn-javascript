@@ -37,3 +37,17 @@ const radius = 5.6
 const area = Math.PI * Math.pow(radius, 2)
 
 console.log(area);
+
+console.log("----------------------------");
+
+const name = "Leonardo"
+const concat = 'Hello ' + name + '!'
+const template = `
+    Hello,
+        ${name}!
+`
+console.log(concat, template);
+console.log(`1 + 1 = ${1 + 1}`);
+
+const up = my_text => my_text.toUpperCase()
+console.log(`hey!!!! ${up('be aware')}!`);
